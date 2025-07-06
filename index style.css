@@ -1,0 +1,76 @@
+@charset "utf-8";
+body{
+	background:#A3A3A3
+}
+.menue{
+	width: 100%;
+	background-color: darkslategray;
+	float: left;
+	margin-top: 0px;
+	border-radius: 10px
+	
+}
+ul{
+	list-style-type: none;
+	background-color: lightgray;
+	margin: 0;
+	width: 100%;
+	padding: 0px;
+}
+li{
+	float: left;
+	height: 64px;
+	display: block; 
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	
+}
+
+li a{
+	text-decoration: none;
+	padding:15px;
+	display:block;
+	color: black;
+}
+li :hover{
+	background-color: lightslategray;
+}
+li ul{
+	display:none;
+}
+li:hover >ul{
+	display:block;
+	position:relative;
+}
+li ul li{
+	background-color: darkslategray;
+	color: black;
+	border-radius: 5px;
+	margin-bottom: 3px;
+	float: none;
+	height: 40px;
+	transition:all 0.25s;
+
+}
+li ul li:hover{
+	background-color: silver;
+	margin-left: 5px;
+}
+.sumbutton{
+	padding-top: 0px;
+	padding-bottom: 6px;
+}
+
+
+
+
+
+
+h1{
+	text-align: center;
+	color: dimgray;
+	font-size: 50px;
+}
+
+

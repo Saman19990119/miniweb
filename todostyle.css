@@ -1,0 +1,16 @@
+@charset "utf-8";
+table{
+	direction: rtl;
+	width: 100%;
+	text-align: center;
+	height: auto;
+	border-collapse: collapse;
+	
+
+}
+td{
+	border: solid 2px black;
+	padding: -0px;
+	color: white;
+	background-color:darkslategray;
+}
